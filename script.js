@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 2. Sticky Navbar & Active Link Highlights on Scroll
     const navbar = document.getElementById('navbar');
-    const sections = document.querySelectorAll('section, header');
+    const sections = document.querySelectorAll('#hero, #about, #projects, #skills, #contact.section');
 
     window.addEventListener('scroll', () => {
         // Sticky Navbar Effect
